@@ -71,3 +71,8 @@
   <br />comp-lzo
   <br />cp /home/user/Downloads/openvpn/ca.crt
   <br /># Start openvpn<br />systemctl start openvpn@client<br /><br /></p>
+  <br>
+  <br>
+  <br> To finish a iptables rule must be enforced
+  <br> iptables -t nat -I POSTROUTING -s 10.8.0.0/24 -o eth0 -j MASQUERADE
+  <br>
