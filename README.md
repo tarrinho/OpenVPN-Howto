@@ -77,3 +77,6 @@
   <br> To finish a iptables rule must be enforced
   <br> iptables -t nat -I POSTROUTING -s 10.8.0.0/24 -o eth0 -j MASQUERADE
   <br>
+  <br>
+  <br> Howto validate what IP are you using in command line?
+  <br> $<i> curl -s checkip.dyndns.org | awk '{ print $NF}' | cut -d '<' -f1 </i>
