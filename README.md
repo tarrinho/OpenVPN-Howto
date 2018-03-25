@@ -44,6 +44,7 @@
   <br />cert raygun.crt
   <br />key raygun.crt
   <br />dh dh2048.pem
+  <br />topology subnet 
   <br />push "redirect-gateway autolocal"
   <br />push "dhcp-option DNS 8.8.8.8"
   <br />comp-lzo
