@@ -80,3 +80,6 @@
   <br>
   <br> Howto validate what IP are you using in command line?
   <br> $<i> curl -s checkip.dyndns.org | awk '{ print $NF}' | cut -d '<' -f1 </i>
+<br>
+  <br> by C.
+    <br> $ curl ipinfo.io/ip
