@@ -69,6 +69,7 @@
   <br />#Specify the rest of the client configuration
   <br /># Keywork "client" must be present
   <br />remote labxx.westeurope.cloudapp.azure.com 1194
+  <br />; tls-auth ta.key 1     <- comment this line
   <br />comp-lzo
   <br />cp /home/user/Downloads/openvpn/ca.crt
   <br /># Start openvpn<br />systemctl start openvpn@client<br /><br /></p>
